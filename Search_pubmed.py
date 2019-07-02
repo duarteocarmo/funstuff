@@ -109,7 +109,7 @@ else:
                      rec['JT'],
                      len(pmc_ids),
                      rec['TI'], 
-                     ' ,'.join(rec['AU'])])
+                     ' ,'.join(authors)])
         
         perc = 100*(c/len(records))
         if perc > v:
